@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Data / logs
+data/conversation_log.json
+
+# Tool caches
+.ruff_cache/
+.pytest_cache/
+
+# Claude Code — dev-only, not for deployment
+.claude/
+.agents
+.codex
+AGENTS.md
